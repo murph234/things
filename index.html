@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+@font-face {
+    font-family: 'Futura';
+    src: url('fonts/Futura-Medium.woff2') format('woff2'),
+        url('fonts/Futura-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('fonts/Futura-MediumItalic.woff2') format('woff2'),
+        url('fonts/Futura-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('fonts/Futura-Bold.woff2') format('woff2'),
+        url('fonts/Futura-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+* {
+   font-family: Futura;
+}
+
+p {
+      margin-left: 80px; /* Applies to all paragraphs */
+    }
+
+h1 {
+	margin-left: 80px;
+	}
+	
+	.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; max-width: 1200px; margin: 0 auto; }
+        .gallery img { width: 100%; height: 250px; object-fit: cover; border-radius: 8px; transition: transform 0.2s; }
+        .gallery img:hover { transform: scale(1.03); }
+</style>
+
+</head>
+<body>
+
+<h1>Things By<br>Chris</h1>
+
+<p>A collection of some of my crafts.  Etsy store coming soon!</p>
+<p>Questions? Contact me at <a href="mailto:things@murphnet.org">things@murphnet.org</a></p>
+
+    <div class="gallery">
+        <!-- Replace filenames below with your exact exported images -->
+        <img src="images/photo1.jpg" alt="Photo 1">
+        <img src="images/photo2.jpg" alt="Photo 2">
+        <img src="images/photo3.jpg" alt="Photo 3">
+        <img src="images/photo4.jpg" alt="Photo 3">
+        <img src="images/photo5.jpg" alt="Photo 3">
+        <img src="images/photo6.jpg" alt="Photo 3">
+        <img src="images/photo7.jpg" alt="Photo 3">
+        <img src="images/photo8.jpg" alt="Photo 3">
+        <img src="images/photo9.jpg" alt="Photo 3">
+        <img src="images/photo10.jpg" alt="Photo 3">
+        <img src="images/photo11.jpg" alt="Photo 3">
+        <img src="images/photo12.jpg" alt="Photo 3">
+    </div>
+
+</body>
+</html>
